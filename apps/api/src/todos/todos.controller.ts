@@ -1,6 +1,6 @@
 import { Controller } from "@nestjs/common"
 import { Crud, CrudController } from "@nestjsx/crud"
-import { Todo } from "@stator/models"
+import { Todo } from "@shellfish/models"
 
 import { TodosService } from "./todos.service"
 

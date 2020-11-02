@@ -1,7 +1,7 @@
 import { Injectable } from "@nestjs/common"
 import { InjectRepository } from "@nestjs/typeorm"
 import { TypeOrmCrudService } from "@nestjsx/crud-typeorm"
-import { Todo } from "@stator/models"
+import { Todo } from "@shellfish/models"
 import { Repository } from "typeorm"
 
 @Injectable()

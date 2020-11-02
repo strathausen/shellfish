@@ -1,5 +1,5 @@
 import { Slice, createSlice } from "@reduxjs/toolkit"
-import { Todo } from "@stator/models"
+import { Todo } from "@shellfish/models"
 
 import { sliceReducerFactory } from "../utils/slice-reducer-factory"
 import { SliceState, getInitialSliceState } from "../utils/slice-state"

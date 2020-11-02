@@ -1,4 +1,4 @@
-import { Todo } from "@stator/models"
+import { Todo } from "@shellfish/models"
 
 import { thunkFactory } from "../utils/thunk-factory"
 

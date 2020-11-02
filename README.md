@@ -1,20 +1,20 @@
 <div align="center">
-  <h1>Stator</h1>
+  <h1>shellfish</h1>
 </div>
 <div align="center">
-  <strong>Stator, your go-to template for the perfect stack.</strong>
+  <strong>shellfish, your go-to template for the perfect stack.</strong>
 </div>
 </br>
 
 <div align="center">
-  <a href="https://badge.fury.io/gh/chocolat-chaud-io%2Fstator">
-    <img src="https://badge.fury.io/gh/chocolat-chaud-io%2Fstator.svg" alt="GitHub version" />
+  <a href="https://badge.fury.io/gh/shellfish%2Fshellfish">
+    <img src="https://badge.fury.io/gh/shellfish%2Fshellfish.svg" alt="GitHub version" />
   </a>
-  <a href="https://github.com/chocolat-chaud-io/stator/actions">
-    <img src="https://github.com/chocolat-chaud-io/stator/workflows/stator%20CI/badge.svg" alt="Github action status" />
+  <a href="https://github.com/shellfish/shellfish/actions">
+    <img src="https://github.com/shellfish/shellfish/workflows/shellfish%20CI/badge.svg" alt="Github action status" />
   </a>
-  <a href="https://coveralls.io/github/chocolat-chaud-io/stator?branch=master">
-    <img src="https://coveralls.io/repos/github/chocolat-chaud-io/stator/badge.svg?branch=master" alt="Coverage Status" />
+  <a href="https://coveralls.io/github/shellfish/shellfish?branch=master">
+    <img src="https://coveralls.io/repos/github/shellfish/shellfish/badge.svg?branch=master" alt="Coverage Status" />
   </a>
   <a href="http://commitizen.github.io/cz-cli/">
     <img src="https://img.shields.io/badge/commitizen-friendly-ff69b4.svg" alt="Commitizen friendly" />
@@ -34,7 +34,7 @@
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
   </a>
-  <a href="https://github.com/chocolat-chaud-io/stator">
+  <a href="https://github.com/shellfish/shellfish">
     <img src="https://img.shields.io/badge/Made%20With-Love-orange.svg" alt="Made With Love" />
   </a>
 </div>
@@ -82,14 +82,14 @@ Have you ever started a new project by yourself?
 If so, you probably know that it is tedious to set up all the necessary tools.
 Just like you, the part I enjoy the most is coding, not boilerplate.
 
-stator solves all of this for you by using the **latest technologies' most up-to-date standards**.
+shellfish solves all of this for you by using the **latest technologies' most up-to-date standards**.
 Indeed, this template is opinionated as to what's the best, but it does enforce excellent practices such as **code re-usability**, **enforces coding guidelines**, **usage of a monorepo**, etc.
 
 If you want more details about how this idea was implemented, I recommend reading the [series of blog articles](https://yann510.hashnode.dev/creating-the-modern-developer-stack-template-part-1-ckfl56axy02e85ds18pa26a6z) I wrote on the topic.
 
 </br>
 
-## 🦄 [Demo Application](https://www.stator.dev)
+## 🦄 [Demo Application](https://www.shellfish.dev)
 
 This template includes a demo **todo application** that serves as an example of sound patterns.
 Of course, you won't be creating a todo application for your project, but you can use this as an example of useful patterns and learn how to use the technologies presented in this project.
@@ -273,7 +273,7 @@ Here is an example from our todo app:
 ```typescript
 import { Controller } from "@nestjs/common"
 import { Crud, CrudController } from "@nestjsx/crud"
-import { Todo } from "@stator/models"
+import { Todo } from "@shellfish/models"
 
 import { TodosService } from "./todos.service"
 
@@ -305,7 +305,7 @@ To further reduce the boilerplate necessary for redux-toolkit we provide you wit
 Here is how you use it:
 
 ```typescript
-import { Todo } from "@stator/models"
+import { Todo } from "@shellfish/models"
 
 import { thunkFactory } from "../utils/thunkFactory"
 
@@ -320,7 +320,7 @@ Here is how you use it:
 
 ```typescript
 import { Slice, createSlice } from "@reduxjs/toolkit"
-import { Todo } from "@stator/models"
+import { Todo } from "@shellfish/models"
 
 import { sliceReducerFactory } from "../utils/sliceReducerFactory"
 import { SliceState, getInitialSliceState } from "../utils/SliceState"

@@ -1,6 +1,6 @@
 import { INestApplication } from "@nestjs/common"
 import { Test } from "@nestjs/testing"
-import { Todo } from "@stator/models"
+import { Todo } from "@shellfish/models"
 import * as supertest from "supertest"
 import { Repository } from "typeorm"
 

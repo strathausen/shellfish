@@ -12,7 +12,7 @@ import {
 import { SnackbarCloseReason } from "@material-ui/core/Snackbar/Snackbar"
 import { Add, Delete, Done, Edit } from "@material-ui/icons"
 import { Alert } from "@material-ui/lab"
-import { Todo } from "@stator/models"
+import { Todo } from "@shellfish/models"
 import clsx from "clsx"
 import React, { ChangeEvent, useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"

@@ -1,5 +1,5 @@
 import { PayloadAction } from "@reduxjs/toolkit"
-import { RootEntity } from "@stator/models"
+import { RootEntity } from "@shellfish/models"
 
 import { SliceState } from "./slice-state"
 import { ThunkFactoryType } from "./thunk-factory"

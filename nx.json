@@ -1,5 +1,5 @@
 {
-  "npmScope": "stator",
+  "npmScope": "shellfish",
   "affected": {
     "defaultBase": "master"
   },

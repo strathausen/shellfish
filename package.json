@@ -1,5 +1,5 @@
 {
-  "name": "stator",
+  "name": "shellfish",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -14,8 +14,8 @@
     "build": "nx build",
     "commit": "cz",
     "dep-graph": "nx dep-graph",
-    "docker:build:webapp": "docker build -t stator-api -f dockerfiles/api/Dockerfile .",
-    "docker:build:api": "docker build -t stator-webapp -f dockerfiles/webapp/Dockerfile .",
+    "docker:build:webapp": "docker build -t shellfish-api -f dockerfiles/api/Dockerfile .",
+    "docker:build:api": "docker build -t shellfish-webapp -f dockerfiles/webapp/Dockerfile .",
     "e2e": "nx e2e",
     "format": "nx format:write",
     "format:check": "nx format:check",
@@ -43,8 +43,8 @@
   },
   "husky": {
     "hooks": {
-      "post-checkout": "branch-naming-check '^\\d+(-[a-z]+)+$'",
-      "pre-commit": "branch-naming-check '^\\d+(-[a-z]+)+$' && npm run lint:file-folder-convention",
+      "post-checkout": "",
+      "pre-commit": "",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },

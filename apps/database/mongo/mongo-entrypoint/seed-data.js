@@ -1,12 +1,12 @@
 print("===============JAVASCRIPT===============")
-print("Count of rows in stator collection: " + db.stator.count())
+print("Count of rows in shellfish collection: " + db.shellfish.count())
 
-db.stator.insert({ message: "Testing data is preserved on docker-compose down and docker-compose-up" })
+db.shellfish.insert({ message: "Testing data is preserved on docker-compose down and docker-compose-up" })
 
 print("===============AFTER JS INSERT==========")
-print("Count of rows in stator collection: " + db.stator.count())
+print("Count of rows in shellfish collection: " + db.shellfish.count())
 
-statorData = db.stator.find()
-while (statorData.hasNext()) {
-  printjson(statorData.next())
+shellfishData = db.shellfish.find()
+while (shellfishData.hasNext()) {
+  printjson(shellfishData.next())
 }
